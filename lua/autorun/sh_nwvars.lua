@@ -4,7 +4,7 @@ nwvars.privacy = {
     SHARED,
     PRIVATE,
 }
-local meta = FindMetaTable("Player") // TODO: support all entities, not just players
+local meta = FindMetaTable("Player") -- TODO: support all entities, not just players
 
 if(SERVER) then
     util.AddNetworkString("nwvars.set")
